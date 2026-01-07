@@ -3,12 +3,12 @@
 <suite name="Failed suite [Default suite]" guice-stage="DEVELOPMENT">
   <test thread-count="5" name="Default test(failed)">
     <classes>
-      <class name="petstore.PetApiTest">
+      <class name="petstore.StoreTest">
         <methods>
-          <include name="addNewPetToTheStore"/>
           <include name="init"/>
+          <include name="placeAnOrderForPet"/>
         </methods>
-      </class> <!-- petstore.PetApiTest -->
+      </class> <!-- petstore.StoreTest -->
     </classes>
   </test> <!-- Default test(failed) -->
 </suite> <!-- Failed suite [Default suite] -->
