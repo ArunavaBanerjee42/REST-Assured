@@ -12,12 +12,12 @@ import java.util.List;
 import org.testng.annotations.BeforeMethod;
 import org.testng.annotations.Test;
 
-import config.Category;
-import config.Pet;
-import config.Tag;
 import io.restassured.RestAssured;
 import io.restassured.http.ContentType;
 import io.restassured.response.Response;
+import petConfig.Category;
+import petConfig.Pet;
+import petConfig.Tag;
 
 public class PetApiTest {
 	@BeforeMethod

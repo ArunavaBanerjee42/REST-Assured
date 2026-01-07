@@ -1,4 +1,4 @@
-package config;
+package petConfig;
 
 public class Category {
 	  private long id;

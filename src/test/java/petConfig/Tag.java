@@ -1,4 +1,4 @@
-package config;
+package petConfig;
 
 public class Tag {
 	private long id;

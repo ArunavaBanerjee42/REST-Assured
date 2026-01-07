@@ -1,4 +1,4 @@
-package config;
+package petConfig;
 import java.util.List;
 
 public class Pet {
