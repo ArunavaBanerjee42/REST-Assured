@@ -3,12 +3,12 @@
 <suite name="Failed suite [Default suite]" guice-stage="DEVELOPMENT">
   <test thread-count="5" name="Default test(failed)">
     <classes>
-      <class name="apiTest.mockApiTest">
+      <class name="petstore.PetApiTest">
         <methods>
+          <include name="addNewPetToTheStore"/>
           <include name="init"/>
-          <include name="testPostRequest"/>
         </methods>
-      </class> <!-- apiTest.mockApiTest -->
+      </class> <!-- petstore.PetApiTest -->
     </classes>
   </test> <!-- Default test(failed) -->
 </suite> <!-- Failed suite [Default suite] -->
