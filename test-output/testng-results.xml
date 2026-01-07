@@ -2,44 +2,44 @@
 <testng-results ignored="0" total="4" passed="4" failed="0" skipped="0">
   <reporter-output>
   </reporter-output>
-  <suite started-at="2026-01-06T16:00:54 IST" name="Suite" finished-at="2026-01-06T16:00:56 IST" duration-ms="2239">
+  <suite started-at="2026-01-07T10:40:52 IST" name="Default suite" finished-at="2026-01-07T10:40:57 IST" duration-ms="5162">
     <groups>
     </groups>
-    <test started-at="2026-01-06T16:00:54 IST" name="Test" finished-at="2026-01-06T16:00:56 IST" duration-ms="2239">
+    <test started-at="2026-01-07T10:40:52 IST" name="Default test" finished-at="2026-01-07T10:40:57 IST" duration-ms="5162">
       <class name="apiTest.mockApiTest">
-        <test-method is-config="true" signature="init()[pri:0, instance:apiTest.mockApiTest@18078bef]" started-at="2026-01-06T16:00:54 IST" name="init" finished-at="2026-01-06T16:00:54 IST" duration-ms="349" status="PASS">
+        <test-method is-config="true" signature="init()[pri:0, instance:apiTest.mockApiTest@48f2bd5b]" started-at="2026-01-07T10:40:52 IST" name="init" finished-at="2026-01-07T10:40:53 IST" duration-ms="593" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- init -->
-        <test-method signature="testDeleteRequest()[pri:0, instance:apiTest.mockApiTest@18078bef]" started-at="2026-01-06T16:00:54 IST" name="testDeleteRequest" finished-at="2026-01-06T16:00:55 IST" duration-ms="1071" status="PASS">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- testDeleteRequest -->
-        <test-method is-config="true" signature="init()[pri:0, instance:apiTest.mockApiTest@18078bef]" started-at="2026-01-06T16:00:55 IST" name="init" finished-at="2026-01-06T16:00:55 IST" duration-ms="0" status="PASS">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- init -->
-        <test-method signature="testGetRequest()[pri:0, instance:apiTest.mockApiTest@18078bef]" started-at="2026-01-06T16:00:55 IST" name="testGetRequest" finished-at="2026-01-06T16:00:55 IST" duration-ms="75" status="PASS">
+        <test-method signature="testGetRequest()[pri:1, instance:apiTest.mockApiTest@48f2bd5b]" started-at="2026-01-07T10:40:53 IST" name="testGetRequest" finished-at="2026-01-07T10:40:56 IST" duration-ms="3605" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- testGetRequest -->
-        <test-method is-config="true" signature="init()[pri:0, instance:apiTest.mockApiTest@18078bef]" started-at="2026-01-06T16:00:55 IST" name="init" finished-at="2026-01-06T16:00:55 IST" duration-ms="1" status="PASS">
+        <test-method is-config="true" signature="init()[pri:0, instance:apiTest.mockApiTest@48f2bd5b]" started-at="2026-01-07T10:40:56 IST" name="init" finished-at="2026-01-07T10:40:56 IST" duration-ms="1" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- init -->
-        <test-method signature="testPatchRequest()[pri:0, instance:apiTest.mockApiTest@18078bef]" started-at="2026-01-06T16:00:55 IST" name="testPatchRequest" finished-at="2026-01-06T16:00:56 IST" duration-ms="650" status="PASS">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- testPatchRequest -->
-        <test-method signature="testPostRequest()[pri:0, instance:apiTest.mockApiTest@18078bef]" started-at="2026-01-06T16:00:56 IST" name="testPostRequest" finished-at="2026-01-06T16:00:56 IST" duration-ms="47" status="PASS">
+        <test-method signature="testPostRequest()[pri:2, instance:apiTest.mockApiTest@48f2bd5b]" started-at="2026-01-07T10:40:56 IST" name="testPostRequest" finished-at="2026-01-07T10:40:57 IST" duration-ms="689" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- testPostRequest -->
-        <test-method is-config="true" signature="init()[pri:0, instance:apiTest.mockApiTest@18078bef]" started-at="2026-01-06T16:00:56 IST" name="init" finished-at="2026-01-06T16:00:56 IST" duration-ms="0" status="PASS">
+        <test-method is-config="true" signature="init()[pri:0, instance:apiTest.mockApiTest@48f2bd5b]" started-at="2026-01-07T10:40:57 IST" name="init" finished-at="2026-01-07T10:40:57 IST" duration-ms="1" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- init -->
+        <test-method signature="testPatchRequest()[pri:3, instance:apiTest.mockApiTest@48f2bd5b]" started-at="2026-01-07T10:40:57 IST" name="testPatchRequest" finished-at="2026-01-07T10:40:57 IST" duration-ms="118" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testPatchRequest -->
+        <test-method signature="testDeleteRequest()[pri:4, instance:apiTest.mockApiTest@48f2bd5b]" started-at="2026-01-07T10:40:57 IST" name="testDeleteRequest" finished-at="2026-01-07T10:40:57 IST" duration-ms="39" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testDeleteRequest -->
+        <test-method is-config="true" signature="init()[pri:0, instance:apiTest.mockApiTest@48f2bd5b]" started-at="2026-01-07T10:40:57 IST" name="init" finished-at="2026-01-07T10:40:57 IST" duration-ms="0" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- init -->
       </class> <!-- apiTest.mockApiTest -->
-    </test> <!-- Test -->
-  </suite> <!-- Suite -->
+    </test> <!-- Default test -->
+  </suite> <!-- Default suite -->
 </testng-results>
